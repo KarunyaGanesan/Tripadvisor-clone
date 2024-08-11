@@ -542,29 +542,29 @@ h2{
    z-index: 1;
 }
 .menu{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .cbe {
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .cbe::-webkit-scrollbar{
     width: 0;
 }
 .eximg{
-    overflow-x: auto;
+    overflow-x: scroll;
     
 }
 .eximg::-webkit-scrollbar{
     width: 0;
 }
-.Dream__img{
-    overflow-x: auto;
+.Dream{
+    overflow-x: scroll;
 }
 .Dream__img::-webkit-scrollbar{
     width: 0;
 }
 .Home{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .Home::-webkit-scrollbar{
     width: 0;
@@ -572,6 +572,7 @@ h2{
 .hidden{
     display: none;
 }
+
 
 
 
@@ -761,9 +762,13 @@ h2{
         
     }
     .list{
-        overflow-x: auto;
+        
         display: flex;
         gap: 10px;
+    }
+    .list{
+        overflow-x: scroll;
+
     }
     .list::-webkit-scrollbar{
         width: 0;
@@ -774,7 +779,7 @@ h2{
        height: 80%;
     }
     .cbe{
-        overflow-x: auto;
+        overflow-x: scroll;
     }
     .cbe::-webkit-scrollbar{
         width: 0;
@@ -799,7 +804,7 @@ h2{
     font-size: 13px;
  }
  .eximg{
-    overflow-x: auto;
+    overflow-x: scroll;
  }
  .D2 img{
     display: block;
@@ -809,7 +814,7 @@ h2{
 
  }
  .Dream__img{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .Dream__img::-webkit-scrollbar{
     width: 0;
@@ -838,7 +843,7 @@ h2{
 
 }
 .Home{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .Home::-webkit-scrollbar{
     width: 0;
@@ -871,7 +876,7 @@ h2{
     flex-direction: column;
     width: fit-content;
     height: fit-content;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 .play3{
     display: flex;
